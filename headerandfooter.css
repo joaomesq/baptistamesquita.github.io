@@ -1,0 +1,100 @@
+body a{
+	text-decoration:  none;
+	color: black;
+}
+body ul li{
+	list-style: none;
+}
+
+.logo h1 {
+
+	width: 60px;
+    color: red;
+    padding: 5px;
+    margin-bottom: 1px;
+
+	border: solid 4px black;
+	border-color: red;
+}
+.logo a{
+	color: blue;
+}
+
+.menu{
+	background: black;
+	border-radius: 4px;
+
+	text-align: center;
+
+	padding: 20px;
+	margin-top: auto;
+}
+.menu ul li{
+	display: inline-block;
+	text-transform: capitalize;
+
+	margin: 5px;
+	padding-bottom: 1px;
+}
+.menu a{
+	color: white;
+
+	text-transform: uppercase;
+	text-align: center;
+     
+}
+.menu a:hover{
+	/*text-decoration: underline;
+	text-decoration-color: white;*/
+    padding: 10px;
+	background: red;
+	border-radius: 4px;
+
+}
+.menu a:ative{
+	background: blue;
+	border-radius: 4px;
+}
+
+footer{
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 8px;
+	border-radius: 4px;
+    
+	background: gray;
+}
+
+
+footer p{
+
+	color: white;
+}
+
+footer .logo-rodape{
+	text-align: center;
+	color: white;
+
+	border: solid 4px black;
+}
+footer h4{
+	text-align: center;
+	color: white;
+}
+footer p,
+.redes ul li {
+	text-align: center;
+}
+
+footer .redes a{
+       color: white;
+}
+footer .redes a:hover{
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-transform: uppercase;
+
+        color: black;
+
+
+}

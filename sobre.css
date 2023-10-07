@@ -1,0 +1,30 @@
+
+.fotos figure{
+	text-align: center;
+	background: #cecece;
+        
+}
+.fotos figure ul{
+       display: grid;
+       justify-items: stretch;
+       align-items: stretch;
+       grid-template-columns: 1fr 1fr;
+       justify-content: space-evenly;
+}
+.fotos figure ul li{
+       padding: 10px;
+}
+.fotos figure ul li img{
+       width: 85%;
+       height: 100%;
+
+}
+.fotos figure figcaption{
+	text-align: center;
+}
+
+
+
+.historia h3{
+	background: #cecece;
+}

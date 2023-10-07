@@ -1,0 +1,20 @@
+.cursos h1{
+	text-align: center;
+}
+.cursos nav {
+	border-bottom: 6px solid black;
+	border-top: 6px solid black;
+
+	border-radius: 2px;
+
+	text-align: center;
+
+	margin-bottom: 5px;
+}
+.cursos nav ul li{
+	text-align: center;
+	margin: 10px;
+
+   font-family:arial;
+   font-size: 20px;
+}
