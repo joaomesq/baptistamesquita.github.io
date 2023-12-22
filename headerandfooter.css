@@ -5,7 +5,10 @@ body a{
 body ul li{
 	list-style: none;
 }
-
+header, footer{
+	width: 100%;
+	padding: 4px;
+}
 .logo h1 {
 
 	width: 60px;

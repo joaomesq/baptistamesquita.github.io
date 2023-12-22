@@ -4,12 +4,12 @@
 <head lang="pt-pt">
     <link rel="stylesheet" type="text/css" href="headerandfooter.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-	<title>IPAG-trabalhofimcurso</title>
+	<title>IPAG | Yia</title>
 
 	<meta charset="utf-8">
 </head>
 
-<body>
+<body onload="iniciar_slide()">
      <header>
      	    <section class="logo">
      	    	<h1 id="a">IPAG</h1>
@@ -27,9 +27,8 @@
      </header>
 
      <main>
-          <figure>
-          	<img src="logo.png">
-          </figure>
+
+          <div class="slide" id="slide" onmouseover="parar_slide()" onmouseout="iniciar_slide()"></div>
      	
      </main>
 
@@ -38,7 +37,7 @@
             	<h1>IPAG</h1>
             </section>
   
-            <H4>IPAG-Instituto Politecnico de Administracao e Gestao do Dango</H4>
+            <H4>IPAG-Instituto Politécnico de Administração e Gestão do Dango</H4>
             <section class="redes">
      	    	<ul>
      	    		<li><a href="free.facebook.com">facebook</a></li>
@@ -50,7 +49,8 @@
              <p>"Chanax: Desenvolvendo ideias, criando soluções"</p>
 	     <p>&copy; 2023 - Todos os direitos reservados a Chanax Tecnolog.</p>
      </footer>
-
+     
+     <script type="text/javascript" src="slide.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,21 @@
+main{
+	background: gray;
+	padding: 5px;
+	width: 100%;
+}
 main figure img{
 	width: 100%;
 	height: 80%;
+}
+.slide{
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	height: 343px;
+
+	margin: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+
+	border-radius: 8px;
 }
